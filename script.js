@@ -12,4 +12,3 @@ function showHome() {
   document.querySelector('header').style.display = 'block';
   document.querySelectorAll('.page').forEach(page => page.classList.remove('visible'));
 }
-
